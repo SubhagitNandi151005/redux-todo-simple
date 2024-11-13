@@ -9,7 +9,7 @@ const App = () => {
 
   return (
     <div className='mainContainer'>
-      <div className='title'>Increment / Decrement using Redux by Subhajit Nandi.</div>
+      <div className='title'>Increment / Decrement using Redux</div>
       <div className='counterContainer'>
         <button onClick={() => dispatch(decrementNumber(2))}>-</button>
         <input type="text" value={myState}/>
